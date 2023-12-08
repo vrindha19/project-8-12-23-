@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Page</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+
+        header {
+            background: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #e8491d 4px solid;
+            box-shadow: 0 1px 1px #ccc;
+        }
+
+        header a {
+            color: #333;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+
+        header ul {
+            padding: 0;
+            margin: 0;
+            list-style: none;
+            overflow: hidden;
+        }
+
+        header #branding {
+            float: left;
+        }
+
+        header #branding h1 {
+            margin: 0;
+        }
+
+        header #branding h1 a {
+            color: #e8491d;
+            text-decoration: none;
+        }
+
+        header nav {
+            float: right;
+            margin-top: 10px;
+        }
+
+        header .highlight, header a:hover {
+            color: #e8491d;
+            font-weight: bold;
+        }
+
+        header a:hover {
+            color: #e8491d;
+        }
+
+        header #branding img {
+            width: 80px;
+            height: 80px;
+        }
+
+        header li, header #branding, header #branding a, header nav, header ul {
+            display: inline-block;
+        }
+
+        header input {
+            float: right;
+            margin-top: 10px;
+            border: 0;
+            padding: 5px;
+            height: 40px;
+            width: 200px;
+        }
+
+        header #menu-icon {
+            display: none;
+        }
+
+        /* Styling for the product page */
+        .product-container {
+            margin-top: 50px;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .product-image {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 20px;
+        }
+
+        .product-title {
+            font-size: 24px;
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .product-description {
+            font-size: 16px;
+            color: #666;
+            margin-bottom: 20px;
+        }
+
+        .buy-now-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #e8491d;
+            color: #fff;
+            text-decoration: none;
+            font-size: 18px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .buy-now-button:hover {
+            background-color: #333;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1><span class="highlight"><a href="#">YourBrand</a></span></h1>
+            </div>
+            <nav>
+                <ul>
+                    <li class="current"><a href="#">Home</a></li>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container product-container">
+        <img class="product-image" src="product-image.jpg" alt="Product Image">
+        <div class="product-details">
+            <h2 class="product-title">Product Title</h2>
+            <p class="product-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut velit nec quam congue maximus. Nullam nec urna nec elit dictum pellentesque. Nulla facilisi.</p>
+            <a href="#" class="buy-now-button">Buy Now</a>
+        </div>
+    </div>
+
+</body>
+</html>

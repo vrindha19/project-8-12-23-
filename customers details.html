@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Customers Details</title>
+    <style>
+        body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+}
+
+.customer-details {
+    text-align: center;
+}
+
+.customer-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.customer-card img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+}
+
+footer {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Fruits Website</h1>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/products">Products</a></li>
+                <li><a href="/contact">Contact</a></li>
+                <!-- Add more navigation links as needed -->
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="customer-details">
+            <h2>Customers Information</h2>
+            
+            <div class="customer-card">
+                <img src="customer1_avatar.jpg" alt="Customer 1 Avatar">
+                <div class="customer-info">
+                    <p><strong>Name:</strong> John Doe</p>
+                    <p><strong>Email:</strong> john.doe@example.com</p>
+                    <p><strong>Phone:</strong> +1 555-1234</p>
+                    <p><strong>Address:</strong> 123 Main St, Cityville</p>
+                </div>
+            </div>
+
+            <div class="customer-card">
+                <img src="customer2_avatar.jpg" alt="Customer 2 Avatar">
+                <div class="customer-info">
+                    <p><strong>Name:</strong> Jane Smith</p>
+                    <p><strong>Email:</strong> jane.smith@example.com</p>
+                    <p><strong>Phone:</strong> +1 555-5678</p>
+                    <p><strong>Address:</strong> 456 Oak St, Townsville</p>
+                </div>
+            </div>
+
+            <!-- Repeat the above customer card structure for additional customers -->
+
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Fruits Website. All rights reserved.</p>
+    </footer>
+</body>
+</html>
